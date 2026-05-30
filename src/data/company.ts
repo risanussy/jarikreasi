@@ -1,11 +1,14 @@
 export const company = {
-  name: "jarikreasi",
-  tagline: "Mitra transformasi digital untuk bisnis yang ingin tumbuh lebih cepat dan rapi.",
+  name: "PT JARI KREASI",
+  shortName: "jarikreasi",
+  tagline: "Integrated Business Support & Digital Ecosystem",
   description:
-    "jarikreasi adalah perusahaan IT yang membantu organisasi membangun produk digital, sistem internal, dan fondasi teknologi yang siap berkembang.",
-  headquarters: "Jakarta, Indonesia",
-  email: "hello@jarikreasi.id",
-  phone: "+62 21 5099 8840",
+    "Mengintegrasikan kebutuhan operasional, digitalisasi, komunikasi, dan pengembangan organisasi dalam satu solusi terintegrasi.",
+  founded: "Est. 2009",
+  headquarters: "Indonesia",
+  email: "jarikreasi@gmail.com",
+  instagram: "@jarikreasipt",
+  phone: "+62 813 3968 56589",
   hours: "Senin - Jumat, 09.00 - 18.00 WIB",
 };
 
@@ -14,285 +17,472 @@ export const navItems = [
   { href: "/tentang", label: "Tentang" },
   { href: "/layanan", label: "Layanan" },
   { href: "/solusi", label: "Solusi" },
-  { href: "/portofolio", label: "Portofolio" },
-  { href: "/proses", label: "Proses" },
+  { href: "/portofolio", label: "Klien" },
+  { href: "/proses", label: "Keunggulan" },
   { href: "/kontak", label: "Kontak" },
 ];
 
 export const stats = [
-  { value: "40+", label: "Proyek digital dirilis" },
-  { value: "12", label: "Sektor industri ditangani" },
-  { value: "96%", label: "Retensi klien tahunan" },
-  { value: "24/7", label: "Monitoring sistem prioritas" },
+  { value: "15+", label: "Tahun pengalaman" },
+  { value: "5", label: "Pilar layanan" },
+  { value: "100+", label: "Proyek selesai" },
+  { value: "2009", label: "Tahun berdiri" },
+];
+
+export const heroPillars = [
+  "Procurement",
+  "Digital Solution",
+  "Media",
+  "Human Development",
+  "Business Support",
 ];
 
 export const highlights = [
   {
-    title: "Product Thinking",
+    title: "Integrated Solution",
     description:
-      "Kami menyusun solusi dari tujuan bisnis, bukan hanya dari daftar fitur.",
+      "Menggabungkan kebutuhan pengadaan, digitalisasi, komunikasi, dan pengembangan organisasi dalam satu koordinasi yang lebih efisien.",
   },
   {
-    title: "Engineering Discipline",
+    title: "Trusted Execution",
     description:
-      "Arsitektur, QA, dokumentasi, dan deployment dirancang agar sistem tetap sehat dalam jangka panjang.",
+      "Didukung pengalaman proyek pemerintah, BUMN, organisasi internasional, dan sektor swasta dengan eksekusi profesional.",
   },
   {
-    title: "Lean Collaboration",
+    title: "Sustainable Collaboration",
     description:
-      "Komunikasi ringkas, milestone jelas, dan visibilitas progres yang mudah dipantau tim Anda.",
+      "Kemitraan dibangun untuk jangka panjang melalui layanan yang inovatif, adaptif, dan relevan terhadap kebutuhan organisasi.",
   },
 ];
 
 export const aboutSections = [
   {
-    title: "Profil Perusahaan",
+    title: "Tentang Kami",
     body:
-      "jarikreasi berfokus pada pengembangan software custom, modernisasi proses bisnis, dan implementasi infrastruktur digital yang aman. Kami menggabungkan riset kebutuhan, desain pengalaman pengguna, pengembangan full-stack, serta support operasional untuk menghadirkan solusi yang relevan dan terukur.",
+      "PT Jari Kreasi merupakan perusahaan yang berdiri sejak tahun 2009 dengan pengalaman dalam bidang pengadaan barang dan jasa, media komunikasi, digitalisasi, pelatihan, dokumentasi, event support, serta solusi operasional untuk instansi pemerintah, BUMN, organisasi, dan sektor swasta.",
   },
   {
-    title: "Visi",
+    title: "Perkembangan Perusahaan",
     body:
-      "Menjadi partner teknologi yang dipercaya perusahaan Indonesia untuk mempercepat inovasi digital secara praktis, stabil, dan berdampak nyata.",
+      "Kami berkembang dari penyedia layanan pengadaan menjadi mitra strategis yang membantu organisasi meningkatkan efektivitas operasional, transformasi digital, komunikasi, dan pengembangan sumber daya manusia.",
   },
   {
-    title: "Misi",
+    title: "Karakter Perusahaan",
     body:
-      "Mendesain solusi yang mudah diadopsi tim, membangun sistem yang tahan berkembang, dan menjaga kualitas delivery melalui proses kerja yang transparan dan akuntabel.",
+      "Inovatif, adaptif, berkelanjutan, dan terpercaya menjadi fondasi utama dalam setiap solusi dan kemitraan yang kami bangun.",
   },
 ];
 
+export const visionMission = {
+  vision:
+    "Menjadi Integrator terdepan yang menghadirkan solusi pengadaan, digitalisasi, komunikasi, dan pengembangan organisasi secara terintegrasi.",
+  mission: [
+    "Memberikan solusi yang efektif dan terukur bagi klien.",
+    "Mendukung transformasi digital organisasi.",
+    "Membangun kolaborasi jangka panjang dengan mitra dan klien.",
+    "Menghadirkan layanan yang inovatif, adaptif, dan berkelanjutan.",
+    "Menjadi partner terpercaya bagi Pemerintah, BUMN, dan sektor swasta.",
+  ],
+};
+
 export const values = [
   {
-    title: "Clarity",
-    description: "Menyederhanakan kebutuhan teknis menjadi keputusan yang mudah dipahami stakeholder.",
+    title: "Inovatif",
+    description: "Menghadirkan pendekatan yang relevan dengan kebutuhan organisasi dan dinamika perubahan.",
   },
   {
-    title: "Reliability",
-    description: "Menjaga kestabilan sistem melalui praktik engineering, observability, dan support yang konsisten.",
+    title: "Adaptif",
+    description: "Mampu menyesuaikan layanan terhadap karakter proyek pemerintah, BUMN, organisasi, maupun swasta.",
   },
   {
-    title: "Adaptability",
-    description: "Solusi dirancang modular agar mudah berkembang mengikuti perubahan bisnis.",
+    title: "Berkelanjutan",
+    description: "Membangun solusi dan hubungan kerja yang dapat terus berkembang dalam jangka panjang.",
   },
   {
-    title: "Partnership",
-    description: "Kami bekerja sebagai partner yang aktif memberi masukan, bukan sekadar vendor eksekusi.",
+    title: "Terpercaya",
+    description: "Menjaga kualitas, profesionalisme, dan komitmen pelaksanaan dalam setiap kerja sama.",
+  },
+];
+
+export const reasons = [
+  {
+    title: "15+ Tahun Pengalaman",
+    description:
+      "Melayani proyek pemerintah, BUMN, organisasi internasional, dan sektor swasta.",
+  },
+  {
+    title: "Multi Service Capability",
+    description:
+      "Pengadaan, media, digital, pelatihan, branding, dan business support dalam satu ekosistem layanan.",
+  },
+  {
+    title: "One Stop Solution",
+    description:
+      "Satu pintu untuk berbagai kebutuhan organisasi agar koordinasi lebih sederhana dan efektif.",
+  },
+  {
+    title: "Trusted Partner",
+    description:
+      "Didukung pengalaman proyek nasional dan regional dengan pendekatan pelaksanaan yang profesional.",
   },
 ];
 
 export const services = [
   {
-    slug: "custom-software-development",
-    title: "Custom Software Development",
+    slug: "procurement",
+    title: "Procurement",
     summary:
-      "Pengembangan aplikasi web dan sistem internal yang sesuai alur bisnis perusahaan.",
+      "Pengadaan barang dan jasa untuk mendukung kebutuhan operasional organisasi.",
     intro:
-      "Layanan ini ditujukan untuk perusahaan yang membutuhkan sistem operasional, dashboard, portal, atau aplikasi khusus dengan proses bisnis yang tidak dapat ditangani oleh software generik.",
+      "Pilar procurement membantu organisasi memenuhi kebutuhan pengadaan dengan koordinasi yang rapi, responsif, dan sesuai kebutuhan program.",
     deliverables: [
-      "Business requirement mapping dan alur user journey",
-      "Desain UI/UX berbasis prioritas pengguna",
-      "Pengembangan frontend, backend, API, dan database",
-      "Role management, audit trail, dan approval workflow",
-      "Testing, deployment, dan dokumentasi teknis",
+      "Pengadaan Barang & Jasa",
+      "Merchandise & Souvenir",
+      "Hardware & Equipment",
+      "Office Supplies",
     ],
     benefits: [
-      "Operasional lebih cepat dan terukur",
-      "Mengurangi proses manual dan duplikasi data",
-      "Mudah diintegrasikan dengan tools lain",
+      "Mendukung kelancaran operasional organisasi",
+      "Menyederhanakan koordinasi kebutuhan pengadaan",
+      "Menjaga kesesuaian kebutuhan dengan kualitas pelaksanaan",
     ],
-    tech: ["Next.js", "Node.js", "PostgreSQL", "REST API", "Cloud Deployment"],
+    tech: ["Operational Support", "Vendor Coordination", "Procurement Planning"],
   },
   {
-    slug: "ui-ux-product-design",
-    title: "UI/UX & Product Design",
+    slug: "digital-solution",
+    title: "Digital Solution",
     summary:
-      "Rancangan pengalaman pengguna yang jelas, konsisten, dan siap diimplementasikan tim engineering.",
+      "Solusi digital untuk identitas, monitoring, otomasi, dan produktivitas organisasi.",
     intro:
-      "Kami membantu memetakan kebutuhan pengguna dan tujuan bisnis ke dalam arsitektur informasi, wireframe, desain high-fidelity, dan design system yang efisien.",
+      "Pilar digital dirancang untuk mendorong transformasi organisasi melalui website, dashboard, automation, dan solusi produktivitas modern.",
     deliverables: [
-      "UX audit dan competitive benchmark",
-      "Information architecture dan user flow",
-      "Wireframe, prototype, dan usability review",
-      "Design system dasar untuk skalabilitas antarmuka",
-      "Handoff design ke tim development",
+      "Website Development",
+      "Dashboard Monitoring",
+      "Business Automation",
+      "Productivity Solution",
     ],
     benefits: [
-      "Antarmuka lebih mudah dipahami pengguna",
-      "Mengurangi revisi saat development",
-      "Konsistensi visual lintas modul dan platform",
+      "Meningkatkan efisiensi kerja dan monitoring",
+      "Memperkuat identitas digital organisasi",
+      "Mendorong digitalisasi proses administratif",
     ],
-    tech: ["Figma", "Design System", "Interactive Prototype", "UX Research"],
+    tech: ["Corporate Website", "Dashboard", "Automation", "AI Productivity"],
   },
   {
-    slug: "cloud-devops-managed-support",
-    title: "Cloud, DevOps & Managed Support",
+    slug: "media-and-communication",
+    title: "Media & Communication",
     summary:
-      "Layanan deployment, monitoring, maintenance, dan optimasi performa sistem digital.",
+      "Dukungan komunikasi visual dan publikasi untuk program organisasi.",
     intro:
-      "Untuk aplikasi yang sudah berjalan, kami menyiapkan pipeline delivery, observability, backup, dan tata kelola support agar layanan tetap stabil setelah go-live.",
+      "Pilar media & communication membantu organisasi membangun eksposur, dokumentasi, dan penyampaian pesan secara profesional.",
     deliverables: [
-      "Setup hosting, CI/CD, dan environment staging",
-      "Monitoring uptime, logs, dan alerting",
-      "Security baseline, backup, dan access control",
-      "SLA support serta incident handling",
-      "Optimasi performa dan evaluasi kapasitas",
+      "Corporate Video",
+      "Media Placement",
+      "Content Production",
+      "Social Media Support",
     ],
     benefits: [
-      "Risiko downtime lebih rendah",
-      "Deployment lebih aman dan cepat",
-      "Tim internal lebih fokus ke prioritas bisnis",
+      "Komunikasi organisasi lebih kuat",
+      "Program dan kegiatan terdokumentasi dengan baik",
+      "Publikasi lebih terarah dan profesional",
     ],
-    tech: ["Vercel", "Docker", "GitHub Actions", "Cloudflare", "Monitoring Stack"],
+    tech: ["Video Production", "Media Placement", "Content Support"],
+  },
+  {
+    slug: "human-development",
+    title: "Human Development",
+    summary:
+      "Program pengembangan SDM, kepemimpinan, dan engagement organisasi.",
+    intro:
+      "Pilar human development dirancang untuk memperkuat kemampuan individu dan tim melalui program yang aplikatif dan berdampak.",
+    deliverables: [
+      "Leadership Program",
+      "Capacity Building",
+      "Team Development",
+      "Employee Engagement",
+    ],
+    benefits: [
+      "Meningkatkan kapasitas organisasi",
+      "Memperkuat kolaborasi tim",
+      "Mendorong kesiapan SDM menghadapi perubahan",
+    ],
+    tech: ["Workshop", "Training Program", "Leadership Development"],
+  },
+  {
+    slug: "business-support",
+    title: "Business Support",
+    summary:
+      "Dukungan event, implementasi program, proyek, dan koordinasi operasional.",
+    intro:
+      "Pilar business support membantu organisasi menjalankan program secara tertib melalui dukungan implementasi, logistik, dan manajemen lapangan.",
+    deliverables: [
+      "Event Support",
+      "Project Management",
+      "Logistics Coordination",
+      "Program Implementation",
+    ],
+    benefits: [
+      "Mempermudah pelaksanaan kegiatan end-to-end",
+      "Mengurangi beban koordinasi internal",
+      "Menjaga kelancaran operasional program",
+    ],
+    tech: ["Event Operation", "Project Coordination", "Implementation Support"],
   },
 ];
 
-export const solutions = [
+export const sectorSolutions = [
   {
-    slug: "enterprise-operations",
-    title: "Enterprise Operations",
+    slug: "pemerintah",
+    title: "Pemerintah",
     summary:
-      "Digitalisasi proses approval, procurement, HR, dan pelaporan internal perusahaan.",
+      "Solusi untuk digitalisasi organisasi, capacity building, media, dan pengadaan.",
     challenge:
-      "Banyak organisasi masih bergantung pada spreadsheet, chat, dan approval manual yang menyulitkan kontrol data dan kecepatan keputusan.",
+      "Instansi memerlukan dukungan yang mampu menjawab kebutuhan operasional sekaligus percepatan transformasi organisasi.",
     approach:
-      "Kami membangun portal internal modular yang menggabungkan workflow approval, notifikasi, dashboard KPI, dan arsip dokumen terpusat.",
+      "Jari Kreasi mendukung website instansi, dashboard, sistem administrasi, pelatihan, workshop, leadership development, publikasi, dokumentasi, video profil, office equipment, merchandise, dan operational support.",
     outcomes: [
-      "Lead time approval turun signifikan",
-      "Data lintas divisi lebih sinkron",
-      "Audit proses menjadi lebih mudah",
+      "Digitalisasi organisasi lebih terarah",
+      "Komunikasi dan dokumentasi program lebih profesional",
+      "Pengadaan dan dukungan operasional lebih efisien",
     ],
   },
   {
-    slug: "commerce-and-customer-platforms",
-    title: "Commerce & Customer Platforms",
+    slug: "bumn",
+    title: "BUMN",
     summary:
-      "Platform digital untuk penjualan, onboarding pelanggan, loyalty, dan layanan mandiri.",
+      "Layanan untuk employee experience, digital support, branding, dan operational support.",
     challenge:
-      "Pertumbuhan pelanggan sering tidak diimbangi pengalaman digital yang cepat, konsisten, dan terintegrasi dengan tim sales maupun customer service.",
+      "BUMN membutuhkan partner dengan kualitas koordinasi tinggi untuk menjalankan program internal dan eksternal secara konsisten.",
     approach:
-      "Kami merancang portal pelanggan, katalog digital, CRM light integration, dan dashboard aktivitas agar interaksi pelanggan lebih terukur.",
+      "Kami mendukung employee gathering, employee engagement, capacity building, dashboard, website internal, learning platform, merchandise, corporate video, campaign support, procurement, logistics, dan event support.",
     outcomes: [
-      "Konversi dan retensi pelanggan meningkat",
-      "Respons layanan lebih cepat",
-      "Tim bisnis mendapat visibilitas funnel yang lebih baik",
+      "Employee experience lebih baik",
+      "Dukungan digital dan komunikasi lebih kuat",
+      "Pelaksanaan kegiatan operasional lebih terkendali",
+    ],
+  },
+];
+
+export const digitalSolutions = [
+  {
+    title: "Corporate Website",
+    description:
+      "Membangun identitas digital organisasi yang profesional dan modern.",
+  },
+  {
+    title: "Dashboard Monitoring",
+    description:
+      "Mendukung monitoring program dan kegiatan secara real-time.",
+  },
+  {
+    title: "E-Learning Platform",
+    description:
+      "Mendukung pembelajaran dan pelatihan digital yang efektif.",
+  },
+  {
+    title: "AI Productivity",
+    description:
+      "Meningkatkan efisiensi pekerjaan administratif dengan AI.",
+  },
+  {
+    title: "Business Automation",
+    description:
+      "Mempercepat proses operasional organisasi secara sistematis.",
+  },
+];
+
+export const featuredServices = [
+  {
+    title: "Human Development",
+    items: [
+      "Leadership Development",
+      "Team Building",
+      "Employee Engagement",
+      "Capacity Building",
+      "Organizational Culture Program",
+      "Digital Mindset Program",
     ],
   },
   {
-    slug: "data-and-executive-visibility",
-    title: "Data & Executive Visibility",
-    summary:
-      "Dashboard manajemen untuk memantau performa bisnis, operasional, dan target strategis.",
-    challenge:
-      "Data tersebar di banyak sistem sehingga pimpinan kesulitan mendapatkan gambaran real-time untuk pengambilan keputusan.",
-    approach:
-      "Kami mengonsolidasikan data penting ke dashboard yang ringkas, lengkap dengan visual KPI, analitik tren, dan akses berbasis peran.",
-    outcomes: [
-      "Pengambilan keputusan lebih cepat",
-      "Pelaporan rutin menjadi otomatis",
-      "Akurasi data meningkat melalui satu sumber kebenaran",
+    title: "Media & Communication",
+    items: [
+      "Corporate Video",
+      "Webinar Production",
+      "Live Streaming",
+      "Documentation",
+      "Content Production",
+      "Media Placement",
+      "Branding Support",
     ],
   },
 ];
 
 export const portfolio = [
   {
-    slug: "opsflow-suite",
-    client: "OpsFlow Suite",
-    sector: "Manufaktur",
-    title: "Platform operasional untuk workflow produksi dan quality control",
+    slug: "employee-gathering-pln-2025",
+    client: "PT PLN (Persero)",
+    sector: "BUMN",
+    title: "Employee Gathering PLN",
     overview:
-      "jarikreasi membangun sistem terintegrasi untuk pelacakan produksi, approval maintenance, dan laporan quality assurance lintas pabrik.",
-    scope: [
-      "Discovery workshop dan pemetaan proses lintas divisi",
-      "Dashboard operasional real-time",
-      "Role-based approval dan histori audit",
-      "Deployment bertahap ke beberapa site operasional",
-    ],
+      "Pelaksanaan kegiatan employee gathering sebagai bagian dari penguatan employee experience dan engagement.",
+    scope: ["Event Support", "Program Implementation", "Operational Coordination"],
     impact: [
-      "Pelaporan harian tersentralisasi",
-      "Waktu rekap manual berkurang drastis",
-      "Manajemen memperoleh visibilitas bottleneck produksi",
+      "Mendukung engagement karyawan",
+      "Pelaksanaan kegiatan lebih terstruktur",
+      "Koordinasi lapangan berjalan efektif",
     ],
   },
   {
-    slug: "catalyst-care",
-    client: "Catalyst Care",
-    sector: "Healthcare",
-    title: "Portal layanan pelanggan dan dashboard performa layanan klinik",
+    slug: "family-gathering-antam-2025",
+    client: "PT ANTAM Tbk",
+    sector: "BUMN",
+    title: "Family Gathering ANTAM",
     overview:
-      "Kami membantu klien menghadirkan pengalaman digital untuk booking, pengelolaan antrian, dan pemantauan SLA layanan di beberapa cabang.",
-    scope: [
-      "Portal pasien dan admin cabang",
-      "Integrasi notifikasi dan antrian layanan",
-      "Monitoring KPI operasional cabang",
-      "Dokumentasi serta pelatihan tim internal",
-    ],
+      "Dukungan penyelenggaraan family gathering untuk memperkuat hubungan internal dan pengalaman karyawan.",
+    scope: ["Event Support", "Logistics Coordination", "Program Implementation"],
     impact: [
-      "Pengalaman layanan menjadi lebih konsisten",
-      "Waktu tunggu dapat dipantau lebih akurat",
-      "Tim operasional lebih cepat menindaklanjuti masalah",
+      "Memperkuat employee experience",
+      "Mendukung kelancaran kegiatan skala besar",
+      "Menjaga kualitas eksekusi acara",
     ],
   },
   {
-    slug: "retail-command-center",
-    client: "Retail Command Center",
-    sector: "Retail",
-    title: "Dashboard eksekutif untuk performa penjualan, stok, dan kampanye cabang",
+    slug: "media-placement-esdm-2025",
+    client: "Kementerian ESDM",
+    sector: "Pemerintah",
+    title: "Media Placement Kementerian ESDM",
     overview:
-      "Sebuah pusat kendali digital untuk memantau tren penjualan harian, efektivitas promosi, dan ketersediaan stok di banyak lokasi.",
-    scope: [
-      "Executive dashboard dan regional view",
-      "Penyatuan metrik operasional utama",
-      "Analisis performa kampanye",
-      "Monitoring data quality dan akses berbasis peran",
-    ],
+      "Dukungan media placement untuk membantu komunikasi program dan eksposur publikasi lembaga.",
+    scope: ["Media Placement", "Communication Support", "Content Coordination"],
     impact: [
-      "Pimpinan dapat memantau kinerja tanpa menunggu laporan manual",
-      "Keputusan restock lebih cepat",
-      "Kinerja kampanye lebih mudah dievaluasi",
+      "Jangkauan publikasi meningkat",
+      "Penyampaian pesan lebih terstruktur",
+      "Komunikasi program lebih profesional",
+    ],
+  },
+  {
+    slug: "capacity-building-pln-2024",
+    client: "PT PLN (Persero)",
+    sector: "BUMN",
+    title: "Capacity Building PLN",
+    overview:
+      "Pelaksanaan program capacity building untuk mendukung pengembangan kapasitas tim dan organisasi.",
+    scope: ["Training Support", "Program Coordination", "Facilitation Support"],
+    impact: [
+      "Peningkatan kapasitas peserta",
+      "Program berjalan lebih efektif",
+      "Mendukung kolaborasi tim",
+    ],
+  },
+  {
+    slug: "videotron-atr-bpn-2024",
+    client: "ATR/BPN",
+    sector: "Pemerintah",
+    title: "Sewa Videotron Inspektorat Jenderal ATR-BPN",
+    overview:
+      "Dukungan kebutuhan media display untuk kegiatan institusi dengan pelaksanaan yang terkoordinasi.",
+    scope: ["Media Support", "Equipment Coordination", "Operational Support"],
+    impact: [
+      "Kegiatan berjalan lebih representatif",
+      "Dukungan teknis lebih siap",
+      "Komunikasi visual di lapangan lebih optimal",
+    ],
+  },
+  {
+    slug: "pengadaan-bpdlh-2024",
+    client: "BPDLH",
+    sector: "Pemerintah",
+    title: "Pengadaan Peralatan BPDLH",
+    overview:
+      "Pemenuhan kebutuhan pengadaan peralatan sebagai dukungan operasional organisasi.",
+    scope: ["Procurement", "Equipment Supply", "Operational Support"],
+    impact: [
+      "Kebutuhan operasional terpenuhi",
+      "Pengadaan lebih terarah",
+      "Koordinasi pemenuhan kebutuhan lebih efisien",
+    ],
+  },
+];
+
+export const clients = [
+  "Kementerian ATR/BPN",
+  "Kementerian ESDM",
+  "Kementerian LHK",
+  "Kemendiknas",
+  "Kemenperin",
+  "PT PLN (Persero)",
+  "Bank Indonesia",
+  "PT ANTAM Tbk",
+  "BPDLH",
+  "UNIDO",
+  "BRI",
+  "PT Bukit Asam Medika",
+];
+
+export const documentationYears = [
+  {
+    year: "2025",
+    items: [
+      "Employee Gathering PLN",
+      "Family Gathering ANTAM",
+      "Media Placement Kementerian ESDM",
+    ],
+  },
+  {
+    year: "2024",
+    items: [
+      "Capacity Building PLN",
+      "Sewa Videotron ATR-BPN",
+      "Pengadaan Peralatan BPDLH",
+    ],
+  },
+  {
+    year: "2023",
+    items: [
+      "Workshop Internasional UNIDO",
+      "IP Register ASEAN Workshop Kemenkumham",
     ],
   },
 ];
 
 export const processSteps = [
   {
-    title: "Discovery & Alignment",
+    title: "One Stop Solution",
     description:
-      "Workshop awal untuk memahami tujuan bisnis, tantangan operasional, pemangku kepentingan, dan prioritas fitur.",
+      "Satu pintu untuk berbagai kebutuhan organisasi Anda agar koordinasi lebih efisien dan kebutuhan lebih cepat dipenuhi.",
   },
   {
-    title: "Architecture & Design",
+    title: "Integrated Business Support",
     description:
-      "Penyusunan solusi, wireframe, alur sistem, dan roadmap delivery yang realistis berdasarkan kebutuhan inti.",
+      "Layanan kami dirancang saling mendukung untuk kebutuhan pengadaan, media, digital, human development, dan business support.",
   },
   {
-    title: "Build & Validate",
+    title: "Professional Partnership",
     description:
-      "Pengembangan iteratif dengan QA rutin, review berkala, dan validasi langsung dengan tim pengguna.",
+      "Pelaksanaan proyek dijaga dengan pendekatan profesional, terstruktur, dan berorientasi pada hasil nyata.",
   },
   {
-    title: "Launch & Scale",
+    title: "Digital Innovation",
     description:
-      "Go-live terkontrol, monitoring pasca-rilis, perbaikan cepat, dan pengembangan lanjutan sesuai kebutuhan pertumbuhan.",
+      "Kami membantu organisasi bergerak lebih modern melalui website, dashboard monitoring, e-learning, AI productivity, dan automation.",
   },
 ];
 
 export const faqs = [
   {
-    question: "Apakah jarikreasi hanya menangani project besar?",
+    question: "Apakah PT Jari Kreasi hanya fokus pada pengadaan?",
     answer:
-      "Tidak. Kami menangani inisiatif bertahap, mulai dari MVP, redesign sistem yang sudah ada, hingga pengembangan platform berskala enterprise.",
+      "Tidak. PT Jari Kreasi berkembang dari penyedia layanan pengadaan menjadi partner integrated business support yang juga mencakup digital solution, media & communication, human development, dan business support.",
   },
   {
-    question: "Apakah bisa bekerja sama dengan tim internal klien?",
+    question: "Siapa target klien utama PT Jari Kreasi?",
     answer:
-      "Bisa. Kami terbiasa berkolaborasi dengan product owner, tim IT internal, maupun stakeholder lintas fungsi untuk memastikan adopsi berjalan lancar.",
+      "Kami melayani instansi pemerintah, BUMN, organisasi, organisasi internasional, dan sektor swasta.",
   },
   {
-    question: "Apakah tersedia support setelah sistem live?",
+    question: "Apakah layanan dapat dikombinasikan?",
     answer:
-      "Ya. Kami menyediakan opsi managed support, monitoring, perbaikan bug, dan roadmap enhancement pasca implementasi.",
+      "Bisa. Salah satu kekuatan utama Jari Kreasi adalah menghadirkan solusi yang terintegrasi sehingga beberapa kebutuhan dapat dijalankan dalam satu koordinasi layanan.",
   },
 ];
 
@@ -300,43 +490,43 @@ export const pagePreviews = [
   {
     href: "/tentang",
     eyebrow: "Tentang Kami",
-    title: "Siapa jarikreasi dan bagaimana kami bekerja",
+    title: "Profil, visi, misi, dan karakter PT Jari Kreasi",
     description:
-      "Profil perusahaan, visi, misi, nilai kerja, dan pendekatan kolaborasi yang kami bawa ke setiap proyek.",
+      "Merangkum sejarah perusahaan sejak 2009, perkembangan bisnis, serta nilai inovatif, adaptif, berkelanjutan, dan terpercaya.",
   },
   {
     href: "/layanan",
-    eyebrow: "Layanan",
-    title: "Kemampuan inti dari discovery hingga maintenance",
+    eyebrow: "5 Pilar Layanan",
+    title: "Integrated business support dalam lima pilar utama",
     description:
-      "Detail layanan pengembangan software, product design, cloud, DevOps, dan support operasional.",
+      "Procurement, digital solution, media & communication, human development, dan business support dalam satu ekosistem.",
   },
   {
     href: "/solusi",
-    eyebrow: "Solusi",
-    title: "Use case IT yang relevan untuk pertumbuhan bisnis",
+    eyebrow: "Solusi Kami",
+    title: "Solusi untuk pemerintah, BUMN, dan transformasi digital",
     description:
-      "Solusi enterprise operations, customer platform, dan dashboard data untuk membantu keputusan lebih cepat.",
+      "Menampilkan pendekatan layanan untuk sektor pemerintahan, BUMN, dan kebutuhan modernisasi organisasi.",
   },
   {
     href: "/portofolio",
-    eyebrow: "Portofolio",
-    title: "Gambaran implementasi dan dampak bisnis",
+    eyebrow: "Klien & Pekerjaan",
+    title: "Rekam jejak proyek dan organisasi yang pernah bekerja sama",
     description:
-      "Contoh proyek dan transformasi digital yang menunjukkan kualitas delivery dan dampak yang terukur.",
+      "Daftar klien, pekerjaan 3 tahun terakhir, dan dokumentasi ringkas atas pelaksanaan proyek utama.",
   },
   {
     href: "/proses",
-    eyebrow: "Proses",
-    title: "Cara kerja yang terstruktur dan transparan",
+    eyebrow: "Keunggulan",
+    title: "Mengapa Jari Kreasi menjadi partner yang relevan",
     description:
-      "Alur project dari discovery, desain, build, hingga launch dan pengembangan berkelanjutan.",
+      "Alasan memilih Jari Kreasi, mulai dari pengalaman, kapabilitas multi layanan, hingga pendekatan one stop solution.",
   },
   {
     href: "/kontak",
-    eyebrow: "Kontak",
-    title: "Mulai diskusi kebutuhan digital perusahaan Anda",
+    eyebrow: "Hubungi Kami",
+    title: "Saluran komunikasi untuk memulai kolaborasi",
     description:
-      "Informasi kontak, area kerja sama, FAQ, dan langkah awal untuk memulai kolaborasi dengan tim kami.",
+      "Informasi email, telepon, Instagram, dan pertanyaan umum sebelum memulai kerja sama.",
   },
 ];

@@ -32,9 +32,9 @@ export function SiteFooter() {
             Kontak
           </p>
           <div className="space-y-2 text-sm text-white/80">
-            <p>{company.headquarters}</p>
             <p>{company.email}</p>
             <p>{company.phone}</p>
+            <p>{company.instagram}</p>
             <p>{company.hours}</p>
           </div>
         </div>

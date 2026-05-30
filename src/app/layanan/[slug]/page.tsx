@@ -68,7 +68,7 @@ export default async function ServiceDetailPage({ params }: Props) {
 
           <div className="rounded-[2rem] border border-black/8 bg-white p-8">
             <h2 className="font-[family:var(--font-display)] text-2xl font-semibold tracking-tight text-[#111111]">
-              Teknologi umum
+              Cakupan pendukung
             </h2>
             <div className="mt-6 flex flex-wrap gap-3">
               {service.tech.map((item) => (

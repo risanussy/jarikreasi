@@ -1,6 +1,11 @@
-import { DetailCard } from "@/components/cards";
 import { PageHero } from "@/components/page-hero";
-import { aboutSections, company, stats, values } from "@/data/company";
+import {
+  aboutSections,
+  company,
+  stats,
+  values,
+  visionMission,
+} from "@/data/company";
 
 export default function TentangPage() {
   return (
@@ -8,7 +13,7 @@ export default function TentangPage() {
       <PageHero
         eyebrow="Tentang Kami"
         title={`Mengenal ${company.name} lebih dekat`}
-        description="Halaman ini merangkum profil perusahaan, visi, misi, keunggulan, dan nilai kerja yang menjadi dasar setiap kolaborasi bersama klien."
+        description="Halaman ini merangkum profil perusahaan, perkembangan sejak 2009, visi, misi, dan nilai utama yang menjadi fondasi PT Jari Kreasi."
       />
 
       <section className="mx-auto grid w-full max-w-7xl gap-6 px-6 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:px-10">
@@ -53,16 +58,15 @@ export default function TentangPage() {
                 {company.name}
               </p>
               <p>
-                <span className="font-semibold text-[#111111]">Kantor Pusat:</span>{" "}
-                {company.headquarters}
+                <span className="font-semibold text-[#111111]">Tagline:</span> {company.tagline}
               </p>
               <p>
-                <span className="font-semibold text-[#111111]">Fokus Utama:</span> Custom software,
-                product design, DevOps, dan support sistem digital.
+                <span className="font-semibold text-[#111111]">Didirikan:</span> {company.founded}
               </p>
               <p>
-                <span className="font-semibold text-[#111111]">Model Kolaborasi:</span> Project-based,
-                retainer, dan managed support.
+                <span className="font-semibold text-[#111111]">Fokus Layanan:</span>{" "}
+                Procurement, digital solution, media & communication, human
+                development, dan business support.
               </p>
             </div>
           </div>
@@ -71,21 +75,46 @@ export default function TentangPage() {
 
       <section className="border-y border-black/8 bg-white/70">
         <div className="mx-auto w-full max-w-7xl px-6 py-20 lg:px-10">
-          <div className="max-w-3xl">
+          <div className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
+            <div className="rounded-[2rem] border border-black/8 bg-white p-8">
+              <p className="text-xs font-medium uppercase tracking-[0.3em] text-[#a45a3c]">
+                Visi
+              </p>
+              <h2 className="mt-4 font-[family:var(--font-display)] text-3xl font-semibold tracking-tight text-[#111111]">
+                {visionMission.vision}
+              </h2>
+            </div>
+            <div className="rounded-[2rem] border border-black/8 bg-white p-8">
+              <p className="text-xs font-medium uppercase tracking-[0.3em] text-[#a45a3c]">
+                Misi
+              </p>
+              <ul className="mt-6 space-y-4 text-base leading-8 text-[#5f5a52]">
+                {visionMission.mission.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-12 max-w-3xl">
             <p className="text-xs font-medium uppercase tracking-[0.3em] text-[#a45a3c]">
               Nilai Kerja
             </p>
             <h2 className="mt-4 font-[family:var(--font-display)] text-3xl font-semibold tracking-tight text-[#111111] sm:text-4xl">
-              Cara kami menjaga kualitas kerja sama tetap efektif
+              Inovatif, adaptif, berkelanjutan, dan terpercaya
             </h2>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {values.map((value) => (
-              <DetailCard
+              <div
                 key={value.title}
-                title={value.title}
-                description={value.description}
-              />
+                className="rounded-[1.75rem] border border-black/8 bg-white p-6"
+              >
+                <h3 className="font-[family:var(--font-display)] text-xl font-semibold tracking-tight text-[#111111]">
+                  {value.title}
+                </h3>
+                <p className="mt-3 text-sm leading-7 text-[#5f5a52]">{value.description}</p>
+              </div>
             ))}
           </div>
         </div>

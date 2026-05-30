@@ -8,8 +8,8 @@ export default function LayananPage() {
     <>
       <PageHero
         eyebrow="Layanan"
-        title="Layanan teknologi yang dirancang untuk kebutuhan bisnis nyata"
-        description="Setiap layanan memiliki fokus, deliverables, dan dampak yang jelas agar perusahaan dapat memilih bentuk kolaborasi yang paling sesuai."
+        title="Lima pilar layanan dalam ekosistem bisnis yang terintegrasi"
+        description="PT Jari Kreasi menghadirkan procurement, digital solution, media & communication, human development, dan business support sebagai satu rangkaian layanan."
       />
 
       <section className="mx-auto w-full max-w-7xl px-6 py-20 lg:px-10">
@@ -36,10 +36,10 @@ export default function LayananPage() {
               <div className="grid gap-6 md:grid-cols-2">
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-[0.22em] text-[#111111]">
-                    Deliverables
+                    Cakupan
                   </h3>
                   <ul className="mt-4 space-y-3 text-sm leading-7 text-[#5f5a52]">
-                    {service.deliverables.slice(0, 3).map((item) => (
+                    {service.deliverables.map((item) => (
                       <li key={item}>{item}</li>
                     ))}
                   </ul>

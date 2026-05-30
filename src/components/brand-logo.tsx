@@ -19,7 +19,7 @@ export function BrandLogo({ compact = false, dark = false }: BrandLogoProps) {
       />
       {!compact ? (
         <p className={`text-xs ${dark ? "text-white/60" : "text-[#5f5a52]"}`}>
-          IT Company Profile
+          Integrated Business Support & Digital Ecosystem
         </p>
       ) : null}
     </Link>
