@@ -20,6 +20,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: `${company.name} | Company Profile`,
   description: company.description,
+  icons: {
+    icon: "/icon.jpeg",
+    shortcut: "/icon.jpeg",
+    apple: "/icon.jpeg",
+  },
 };
 
 export default function RootLayout({
