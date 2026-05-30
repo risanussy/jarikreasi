@@ -15,7 +15,7 @@ export function BrandLogo({ compact = false, dark = false }: BrandLogoProps) {
         width={compact ? 150 : 190}
         height={compact ? 52 : 66}
         priority
-        className="h-auto w-[132px] object-contain sm:w-[150px]"
+        className="h-[60px] w-auto object-contain"
       />
       {!compact ? (
         <p className={`text-xs ${dark ? "text-white/60" : "text-[#5f5a52]"}`}>
